@@ -289,6 +289,7 @@ public class FlutterBranchSdkPlugin implements FlutterPlugin, MethodCallHandler,
                 break;
             case "getLastAttributedTouchData" :
                 getLastAttributedTouchData(call, result);
+                break;
             default:
                 result.notImplemented();
         }
